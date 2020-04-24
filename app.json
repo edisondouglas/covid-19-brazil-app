@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "covid-19 Brasil",
-    "slug": "covid19brasil",
+    "name": "covid 19 Brasil",
+    "slug": "Covid19Brasil",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,10 +21,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.edisondouglas.covid19",
+      "buildNumber": "1.0.0"
     },
     "android": {
-        
+      "package": "com.edisondouglas.covid19",
+      "versionCode": 1
     },
     "description": ""
   }

@@ -1,5 +1,5 @@
 
-import {StyleSheet} from 'react-native';
+import { StyleSheet } from 'react-native';
 import Constants from 'expo-constants';
 export default StyleSheet.create({
     container: {
@@ -15,7 +15,7 @@ export default StyleSheet.create({
         alignItems: 'center'
     },
 
-    textHeader : {
+    textHeader: {
         fontSize: 28,
         color: '#FFF',
         fontWeight: 'bold'
@@ -36,12 +36,21 @@ export default StyleSheet.create({
     },
 
     card: {
-        borderRadius:8,
+        borderRadius: 8,
         backgroundColor: '#656565',
         height: 50,
         width: '31%',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        shadowColor: "#000",
+        shadowOffset: {
+            width: 0,
+            height: 5,
+        },
+        shadowOpacity: 0.34,
+        shadowRadius: 6.27,
+
+        elevation: 10,
     },
 
     textConfirmeds: {
